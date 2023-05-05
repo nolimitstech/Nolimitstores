@@ -128,7 +128,7 @@ function changeSlide(n) {
 
 ////////////////////////////////
 ////implementing the menu bar
-const menuLogo = document.querySelector(".menu-logo");
+const menuLogo = document.querySelector(".menu-sign");
 const menuBox = document.querySelector(".menu-box");
 const menuClose = document.querySelector(".menu-close");
 const container = document.querySelector(".container");
