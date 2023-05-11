@@ -43,51 +43,25 @@ submit.addEventListener("click", function (e) {
   const input = document.querySelector(".firstN").value.toLowerCase();
   // input.textContent = '';
   if (input.includes("round")) {
-    window.location = "index2.html";
+    window.location = "t-shirt.html";
   } else if (input.includes("t-shirt")) {
-    window.location = "index2.html";
+    window.location = "t-shirt.html";
   } else if (input.includes("nicker")) {
-    window.location = "index3.html";
+    window.location = "shorts.html";
   } else if (input.includes("short")) {
-    window.location = "index3.html";
-  } else if (input.includes("longs")) {
-    window.location = "index4.html";
-  } else if (input.includes("colarneck")) {
-    window.location = "index5.html";
+    window.location = "shorts.html";
   } else if (input.includes("polo")) {
-    window.location = "index5.html";
+    window.location = "polo.html";
   } else if (input.includes("jeans")) {
-    window.location = "index6.html";
-  } else if (input.includes("chinos")) {
-    window.location = "index7.html";
-  } else if (input.includes("joggers")) {
-    window.location = "index8.html";
-  } else if (input.includes("jers")) {
-    window.location = "index9.html";
-  } else if (input.includes("cap")) {
-    window.location = "index10.html";
-  } else if (input.includes("jack")) {
-    window.location = "index13.html";
-  } else if (input.includes("track")) {
-    window.location = "index14.html";
-  } else if (input.includes("up")) {
-    window.location = "index14.html";
-  } else if (input.includes("shirt")) {
-    window.location = "index15.html";
-  } else if (input.includes("short sleeve")) {
-    window.location = "index15.html";
+    window.location = "jeans.html";
   } else if (input.includes("vintage")) {
-    window.location = "index16.html";
-  } else if (input.includes("boxers")) {
-    window.location = "index17.html";
-  } else if (input.includes("sli")) {
-    window.location = "index11.html";
-  } else if (input.includes("foot")) {
-    window.location = "index12.html";
+    window.location = "vintage.html";
   } else {
     const input1 = document.getElementById("firstNumber");
     input1.value = "";
-    input1.placeholder = "Item not found";
+    input1.placeholder = "🚫Item not found";
+    // feedBackBox.style.opacity = "1";
+    // searchFeedback.textContent = "Item not found";
   }
 });
 
