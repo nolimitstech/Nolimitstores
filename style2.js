@@ -54,8 +54,14 @@ submit.addEventListener("click", function (e) {
     window.location = "polo.html";
   } else if (input.includes("jeans")) {
     window.location = "jeans.html";
+  } else if (input.includes("tr")) {
+    window.location = "jeans.html";
   } else if (input.includes("vintage")) {
     window.location = "vintage.html";
+  } else if (input.includes("pa")) {
+    window.location = "palms.html";
+  } else if (input.includes("sl")) {
+    window.location = "palms.html";
   } else {
     const input1 = document.getElementById("firstNumber");
     input1.value = "";
