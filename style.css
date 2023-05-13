@@ -1305,6 +1305,8 @@ a {
 
 .about-content {
   margin-top: 2rem;
+  margin-bottom: 1.3rem;
+  padding: .8rem;
   /* border: 2px solid blue; */
 }
 
@@ -1324,7 +1326,15 @@ a {
 }
 
 .about-text {
+  display: inline-block;
   font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.about-h1 {
+  display: inline-block;
+  font-size: 1.01rem;
 }
 
 .title {
@@ -1383,12 +1393,12 @@ a {
 
 .feedback {
   /* border: 2px solid orangered; */
-  height: 5rem;
+  height: auto;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 3rem;
+  margin-top: 1rem;
   background-color: transparent;
 }
 
@@ -1396,7 +1406,7 @@ a {
   /* background: linear-gradient(to right, rgb(238, 137, 5), rgb(238, 79, 5)); */
   width: 100%;
   /* border: 2px solid blue; */
-  height: 15rem;
+  height: 10rem;
   background: linear-gradient(to top,
       rgb(229, 240, 150),
       rgb(236, 227, 177),
@@ -1696,4 +1706,168 @@ a {
 .more__link:hover {
   color: rgb(243, 92, 4);
   transform: translateX(1rem) scale(1.01);
+}
+
+.description {
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  /* border: 2px solid blue; */
+  width: 100%;
+  height: auto;
+  background-color: rgb(245, 244, 244);
+
+}
+
+.descrip-h1 {
+  font-size: 2rem;
+}
+
+.descrip-h2 {
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+.descrip-pbox {
+  /* display: inline-block; */
+  /* height: fit-content; */
+  width: 95%;
+  font-weight: 400;
+  color: black;
+  /* border: 2px solid purple; */
+}
+
+.descrip-p {
+  display: inline-block;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  /* height: 100%; */
+  width: 100%;
+}
+
+
+/* .descrip-btnbox {
+  text-align: center;
+  border: 2px solid red;
+  padding: .3rem;
+  height: fit-content;
+  margin-bottom: 2rem;
+  display: none;
+} */
+
+
+.descrip-btn {
+  display: none;
+  text-decoration: none;
+  outline: none;
+  padding: .4rem 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: sans-serif;
+  border: none;
+  background-color: #fff;
+}
+
+.descrip-btn:hover,
+.descrip-btn2:hover {
+  background-color: #f1f0f0;
+}
+
+.descrip-btn2 {
+  display: none;
+  text-decoration: none;
+  outline: none;
+  padding: .5rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: sans-serif;
+  border: none;
+  background-color: #fff;
+  color: #922105;
+}
+
+.div {
+  width: 97.4%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: .12rem;
+  background-color: #928e8e;
+}
+
+.descrip-FAQsbox {
+  width: 95%;
+}
+
+.descrip-FAQs {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #031a09;
+}
+
+.descrip-ans {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+
+@media screen and (min-width: 551px) and (max-width: 2000px) {
+
+  .description {
+    height: auto;
+  }
+
+  .descrip-btnbox {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 550px) {
+
+  .description {
+    height: 15rem;
+    overflow: hidden;
+    margin-bottom: 0;
+  }
+
+  .descrip-btnbox {
+    text-align: center;
+    /* border: 2px solid red; */
+    padding: .3rem;
+    height: fit-content;
+    margin-bottom: 1rem;
+    /* padding-bottom: .8rem; */
+  }
+
+  .descrip-btn {
+    display: inline-block;
+  }
+
+  .descrip-h1 {
+    font-size: 1.5rem;
+  }
+
+  .descrip-h2 {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+
+  .descrip-pbox {
+    display: inline-block;
+    /* height: fit-content; */
+    width: 95%;
+    font-weight: 400;
+    color: black;
+    /* border: 2px solid purple; */
+  }
+
+  .descrip-p {
+    display: inline-block;
+    font-size: .7rem;
+    line-height: 1.5rem;
+    /* height: 100%; */
+    width: 100%;
+  }
+
 }

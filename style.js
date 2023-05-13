@@ -146,3 +146,19 @@ feedbackBtn2.addEventListener("click", function (e) {
   sectionFour.style.display = "none";
   menuBox.style.display = "none";
 });
+
+const more = document.querySelector(".descrip-btn");
+const less = document.querySelector(".descrip-btn2");
+const descripBox = document.querySelector(".description");
+
+more.addEventListener('click', function () {
+  descripBox.style.height = "auto";
+  more.style.display = "none";
+  less.style.display = "inline-block";
+});
+
+less.addEventListener('click', function () {
+  descripBox.style.height = "15rem";
+  less.style.display = "none";
+  more.style.display = "inline-block";
+});
